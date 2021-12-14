@@ -3,14 +3,19 @@
     src: url(Fonts/Alata);
 }
 @font-face {
-    font-family: Joselite;
+    font-family: JoseThin;
     src: url(Fonts/Josefin_Sans/static/JosefinSans-Thin.ttf);
+}
+
+@font-face {
+    font-family: Joselite;
+    src: url(Fonts/Josefin_Sans/static/JosefinSans-ExtraLight.ttf);
 }
 
 @media screen and (max-width: 375px) {
     body{
         flex: column;
-        margin: 0%;
+        margin: 0px;
     }
 
     .header{
@@ -59,7 +64,7 @@
         height: 146px;
         left: 48px;
         top: 253px;
-        font-family: Joselite;
+        font-family: JoseThin;
         font-style: normal;
         font-weight: 300;
         font-size: 40px;
@@ -69,7 +74,55 @@
         color: #FFFFFF;
     }
 
-    
+    .mini-promo{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #promo-guy-img{
+        padding: 5%;
+        max-height: 75%;
+        max-width: 327px;
+    }
+
+    .promo-info{
+        padding: 5%;
+    }
+
+    #promo-head{
+        /* The leader in intera */
+
+        font-family: Joselite;
+        font-style: bold;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    #promo-body{
+        /* Founded in 2011, Loo */
+
+        font-family: Alata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        text-align: center;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+    }
+
+
+
 }
 
 @media screen and (min-width: 376px) {
