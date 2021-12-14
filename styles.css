@@ -1,4 +1,74 @@
+@font-face {
+    font-family: Alata;
+    src: url(Fonts/Alata);
+}
+@font-face {
+    font-family: Joselite;
+    src: url(Fonts/Josefin_Sans/static/JosefinSans-Thin.ttf);
+}
+
 @media screen and (max-width: 375px) {
+    body{
+        flex: column;
+        margin: 0%;
+    }
+
+    .header{
+        background-image: url(images/mobile/image-hero.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 650px;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #logo-head{
+        margin-top: 40px;
+    }
+
+    #hamburger{
+        margin-top: 48px;
+    }
+
+    .buttons-header{
+        display: none;
+    }
+
+
+    #immersive-logo{
+        position: absolute;
+        width: 327px;
+        height: 196px;
+        left: 24px;
+        top: 227px;
+        /* Rectangle */
+        position: absolute;
+        width: 327px;
+        height: 196px;
+        left: 24px;
+        top: 227px;
+        border: 2px solid #FFFFFF;
+        /* Immersive experience */
+        padding: 5%;
+        padding-right: 0%;
+        position: absolute;
+        width: 279px;
+        height: 146px;
+        left: 48px;
+        top: 253px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 38px;
+        /* or 95% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
     
 }
 
