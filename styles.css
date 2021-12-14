@@ -1,6 +1,6 @@
 @font-face {
     font-family: Alata;
-    src: url(Fonts/Alata);
+    src: url(Fonts/Alata/Alata-Regular.ttf);
 }
 @font-face {
     font-family: JoseThin;
@@ -121,6 +121,306 @@
 
     }
 
+    .gallery{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gallery-header{
+        font-family: Joselite;
+        font-style: bold;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .gallery-buttons{
+        display: flex;
+        flex-flow: column;
+        padding: 5%;
+        align-items: center;
+    }
+
+    .gallery-buttons p{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        text-align: left;
+        margin-top: 52px;
+        margin-left: 20px;
+        width: 125px;
+    }
+
+    #deep-earth{
+        background-image: url(images/mobile/image-deep-earth.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #night-arcade{
+        background-image: url(images/mobile/image-night-arcade.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #soccer-team{
+        background-image: url(images/mobile/image-soccer-team.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #the-grid{
+        background-image: url(images/mobile/image-grid.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #from-up{
+        background-image: url(images/mobile/image-from-above.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #pocket-borealis{
+        background-image: url(images/mobile/image-pocket-borealis.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #the-curiosity{
+        background-image: url(images/mobile/image-curiosity.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #fisheye{
+        background-image: url(images/mobile/image-fisheye.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 327px;
+        height: 120px;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        margin-bottom: 3%;
+    }
+
+    #gallery-expand{
+        order: 3;
+        
+        margin-top: 34px;
+        margin-bottom: 96px;
+
+        background-color: white;
+        width: 157px;
+        height: 40px;
+
+        border: 0.5px solid black;
+        font-family: Alata;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 14;
+    }
+
+    .footer{
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        padding-top: 56px;;
+    }
+
+    #copyright{
+        color: white;
+        opacity: 50%;
+        order: 4;
+    }
+
+    .footer-sm{
+        display: flex;
+        flex-flow: row;
+        order: 3;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    #fb{
+        background-color: transparent;
+        border: none;
+    }
+
+    #twit{
+        background-color: transparent;
+        border: none;
+    }
+
+    #pin{
+        background-color: transparent;
+        border: none;
+    }
+
+    #insta{
+        background-color: transparent;
+        border: none;
+    }
+
+    .buttons-footer{
+        display: flex;
+        flex-flow: column;
+        padding: 32px;
+    }
+
+    #aboutf{
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #careersf{
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #eventsf{
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #productsf{
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #supportf{
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 16px;
+        font-size: 15px;
+        font-family: Alata;
+    }
 
 
 }
