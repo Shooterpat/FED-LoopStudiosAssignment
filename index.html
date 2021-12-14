@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Loopstudios landing page</title>
 
@@ -16,41 +18,78 @@
 </head>
 
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <header class="header">
+    <div id="logo-head"></div>
 
-  Immersive experiences that deliver
+    <div class="buttons-header">
+      <button>About</button>
+      <button>Careers</button>
+      <button>Events</button>
+      <button>Products</button>
+      <button>Support</button>
+    </div>
+    
 
-  The leader in interactive VR
+    <nav class="immersive-logo">
+      Immersive experiences that deliver
+    </nav>
+  </header>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+  <div class="mini-promo">
+    <div class="promo-guy"></div>
+    <div class="promo-info">
+      <h1>The leader in interactive VR</h1>
+  
 
-  Our creations
+      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+      projects for some of the best companies around the globe. Our award-winning 
+      creations have transformed businesses through digital experiences that bind 
+      to their brand.</p>
+    </div>
+  </div>
 
-  See all
+  <div class="gallery">
+    
+    <h1 id="gallery-header">Our creations</h1>
 
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
+    <button id="gallery-expand">See all</button> 
 
-  About
-  Careers
-  Events
-  Products
-  Support
+    <div class="gallery-buttons">
+      <button id="deep-earth">Deep earth</button> 
+      <button id="night-arcade">Night arcade</button>
+      <button id="soccer-team">Soccer team VR</button>
+      <button id="the-grid">The grid</button>
+      <button id="from-up">From up above VR</button>
+      <button id="pocket-borealis">Pocket borealis</button>
+      <button id="the-curiosity">The curiosity</button>
+      <button id="fisheye">Make it fisheye</button>
+    </div>
 
-  © 2021 Loopstudios. All rights reserved.
+  </div>
+
+  <footer class="footer">
+
+    <div id="logo-foot"></div>
+
+    <div class="footer-sm">
+      <button id="fb"></button>
+      <button id="twit"></button>
+      <button id="pin"></button>
+      <button id="snap"></button>
+    </div>
+
+    <div class="buttons-footer">
+      <button>About</button>
+      <button>Careers</button>
+      <button>Events</button>
+      <button>Products</button>
+      <button>Support</button>
+    </div>
+  
+    <div id="copyright">
+      © 2021 Loopstudios. All rights reserved.
+    </div>
+  </footer>
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
