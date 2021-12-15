@@ -534,5 +534,62 @@
 
     }
 
+    .mini-promo{
+        display: grid;
+        grid-template-columns: 555px 1fr;
+        grid-template-rows: 250px;
+        align-content: center;
+        justify-content: center;
+        width: 1111px;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    #promo-guy{ 
+        grid-column: 1;
+    }
+
+    .promo-info{
+        grid-column: 2;
+        background-color: white;
+        width: 541px;
+        height: 317px;
+        margin-top: 150px;
+    }
+
+    #promo-head{
+        /* The leader in intera */
+        width: 445px;
+        height: 96px;
+        margin-left: 15%;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #000000;
+
+
+    }
+
+    #promo-body{
+        /* Founded in 2011, Loo */
+        width: 445px;
+        height: 100px;
+        margin-left: 15%;
+        font-family: Alata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+    }
+    
 
 }
