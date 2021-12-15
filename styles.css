@@ -863,5 +863,111 @@
         margin-left: 40px;
     }
 
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 24px 1fr;
+        background-color: black;
+        width: 1440px;
+    }
+
+    #logo-foot{
+        grid-column: 1;
+        grid-row: 1;
+        margin-left: 165px;
+        margin-top: 24px;
+    }
+
+    .footer-sm{
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: right;
+        margin-top: 24px;
+        margin-right: 165px;
+    }
+
+    #fb{
+        background-color: transparent;
+        border: none;
+    }
+
+    #twit{
+        background-color: transparent;
+        border: none;
+    }
+
+    #pin{
+        background-color: transparent;
+        border: none;
+    }
+
+    #insta{
+        background-color: transparent;
+        border: none;
+    }
+
+    .buttons-footer{
+        grid-column: 1;
+        grid-row: 3;
+        margin-left: 165px;
+        margin-top: 24px;
+    }
+
+    
+
+    #aboutf{
+        background-color: transparent;
+        border: none;
+        padding-right: 16px;
+        color: white;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #careersf{
+        background-color: transparent;
+        border: none;
+        padding-right: 16px;
+        color: white;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #eventsf{
+        background-color: transparent;
+        border: none;
+        padding-right: 16px;
+        color: white;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #productsf{
+        background-color: transparent;
+        border: none;
+        padding-right: 16px;
+        color: white;
+        font-size: 15px;
+        font-family: Alata;
+    }
+
+    #supportf{
+        background-color: transparent;
+        border: none;
+        padding-right: 16px;
+        color: white;
+        font-size: 15;
+        font-family: Alata;
+    }
+
+    #copyright{
+        grid-column: 2;
+        grid-row: 3;
+        justify-self: right;
+        margin-top: 24px;
+        margin-right: 165px;
+        color: white;
+        opacity: 50%;
+    }
 
 }
