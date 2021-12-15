@@ -591,5 +591,277 @@
 
     }
     
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 80px 1fr;
+        width: 1114px;
+        height: 578px;
+        margin-bottom: 35%;
+    }
+
+    #gallery-header{
+        /* OUR CREATIONS */
+        justify-self: flex-start;
+        grid-column: 1;
+        grid-template-rows: 1;
+        font-family: Joselite;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 48px;
+        /* identical to box height, or 100% */
+        text-transform: uppercase;
+        color: #000000;
+
+    }
+
+    #gallery-expand{
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        margin-top: 40px;
+        font-family: Alata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height, or 100% */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #000000;
+        background-color: white;
+        border: 1px solid #000000;
+        width: 157px;
+        height: 40px;
+
+    }
+
+    .gallery-buttons{
+        grid-row: 3;
+        grid-column: 1 / span 2;
+        display: grid;
+        grid-template-columns: 256px 30px 256px 30px 256px 30px 256px 30px ;
+        grid-template-rows: 450px 30px 450px;
+    }
+    
+
+    #deep-earth{
+        grid-row: 1;
+        grid-column: 1;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-deep-earth.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #deep-earth p{
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 106px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #night-arcade{
+        grid-row: 1;
+        grid-column: 3;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-night-arcade.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-right: 30px;
+        border: none;
+    }
+
+    #night-arcade p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 106px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #soccer-team{
+        grid-row: 1;
+        grid-column: 5;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-soccer-team.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #soccer-team p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 160px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #the-grid{
+        grid-row: 1;
+        grid-column: 7;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-grid.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #the-grid p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 160px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #from-up{
+        grid-row: 3;
+        grid-column: 1;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-from-above.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #from-up p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 220px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #pocket-borealis{
+        grid-row: 3;
+        grid-column: 3;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-pocket-borealis.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #pocket-borealis p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 220px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #the-curiosity{
+        grid-row: 3;
+        grid-column: 5;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-curiosity.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #the-curiosity p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 220px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
+    #fisheye{
+        grid-row: 3;
+        grid-column: 7;
+        width: 256px;
+        height: 450px;
+        background-image: url(images/desktop/image-fisheye.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    #fisheye p {
+        font-family: Josethin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 220px;
+        text-align: left;
+        margin-top: 354px;
+        margin-left: 40px;
+    }
+
 
 }
