@@ -541,6 +541,7 @@
         align-content: center;
         justify-content: center;
         width: 1111px;
+        height: 541px;
         margin-top: 10%;
         margin-bottom: 20%;
     }
@@ -596,8 +597,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 80px 80px 1fr;
         width: 1114px;
-        height: 578px;
-        margin-bottom: 35%;
+        height: 1114px;
     }
 
     #gallery-header{
