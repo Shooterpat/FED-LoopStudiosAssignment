@@ -477,6 +477,10 @@
         font-family: Alata;
     }
 
+    #abouth:hover{
+        border-bottom: 2px solid white;
+    }
+
     #careersh{
         background-color: transparent;
         border: none;
@@ -484,6 +488,10 @@
         color: white;
         font-size: 25px;
         font-family: Alata;
+    }
+
+    #careersh:hover{
+        border-bottom: 2px solid white;
     }
 
     #eventsh{
@@ -495,6 +503,10 @@
         font-family: Alata;
     }
 
+    #eventsh:hover{
+        border-bottom: 2px solid white;
+    }
+
     #productsh{
         background-color: transparent;
         border: none;
@@ -504,6 +516,10 @@
         font-family: Alata;
     }
 
+    #productsh:hover{
+        border-bottom: 2px solid white;
+    }
+
     #supporth{
         background-color: transparent;
         border: none;
@@ -511,6 +527,10 @@
         color: white;
         font-size: 25px;
         font-family: Alata;
+    }
+
+    #supporth:hover{
+        border-bottom: 2px solid white;
     }
 
     #immersive-logo{
@@ -934,9 +954,17 @@
         border: none;
     }
 
+    #fb:hover{
+        border-bottom: 2px solid white;
+    }
+
     #twit{
         background-color: transparent;
         border: none;
+    }
+
+    #twit:hover{
+        border-bottom: 2px solid white;
     }
 
     #pin{
@@ -944,9 +972,17 @@
         border: none;
     }
 
+    #pin:hover{
+        border-bottom: 2px solid white;
+    }
+
     #insta{
         background-color: transparent;
         border: none;
+    }
+
+    #insta:hover{
+        border-bottom: 2px solid white;
     }
 
     .buttons-footer{
@@ -967,6 +1003,10 @@
         font-family: Alata;
     }
 
+    #aboutf:hover{
+        border-bottom: 2px solid white;
+    }
+
     #careersf{
         background-color: transparent;
         border: none;
@@ -974,6 +1014,10 @@
         color: white;
         font-size: 15px;
         font-family: Alata;
+    }
+
+    #careersf:hover{
+        border-bottom: 2px solid white;
     }
 
     #eventsf{
@@ -985,6 +1029,10 @@
         font-family: Alata;
     }
 
+    #eventsf:hover{
+        border-bottom: 2px solid white;
+    }
+
     #productsf{
         background-color: transparent;
         border: none;
@@ -994,6 +1042,10 @@
         font-family: Alata;
     }
 
+    #productsf:hover{
+        border-bottom: 2px solid white;
+    }
+
     #supportf{
         background-color: transparent;
         border: none;
@@ -1001,6 +1053,10 @@
         color: white;
         font-size: 15;
         font-family: Alata;
+    }
+
+    #supportf:hover{
+        border-bottom: 2px solid white;
     }
 
     #copyright{
