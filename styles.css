@@ -477,7 +477,7 @@
         font-family: Alata;
     }
 
-    #abouth:hover{
+    #abouth:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -490,7 +490,7 @@
         font-family: Alata;
     }
 
-    #careersh:hover{
+    #careersh:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -503,7 +503,7 @@
         font-family: Alata;
     }
 
-    #eventsh:hover{
+    #eventsh:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -516,7 +516,7 @@
         font-family: Alata;
     }
 
-    #productsh:hover{
+    #productsh:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -529,7 +529,7 @@
         font-family: Alata;
     }
 
-    #supporth:hover{
+    #supporth:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -877,8 +877,9 @@
     }
 
     #the-curiosity:hover{
-        opacity: 70%;
+        opacity: 50%;
     }
+
 
     #the-curiosity p {
         font-family: Josethin;
@@ -954,7 +955,7 @@
         border: none;
     }
 
-    #fb:hover{
+    #fb:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -963,7 +964,7 @@
         border: none;
     }
 
-    #twit:hover{
+    #twit:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -972,7 +973,7 @@
         border: none;
     }
 
-    #pin:hover{
+    #pin:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -981,7 +982,7 @@
         border: none;
     }
 
-    #insta:hover{
+    #insta:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -1003,7 +1004,7 @@
         font-family: Alata;
     }
 
-    #aboutf:hover{
+    #aboutf:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -1016,7 +1017,7 @@
         font-family: Alata;
     }
 
-    #careersf:hover{
+    #careersf:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -1029,7 +1030,7 @@
         font-family: Alata;
     }
 
-    #eventsf:hover{
+    #eventsf:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -1042,7 +1043,7 @@
         font-family: Alata;
     }
 
-    #productsf:hover{
+    #productsf:hover span{
         border-bottom: 2px solid white;
     }
 
@@ -1055,7 +1056,7 @@
         font-family: Alata;
     }
 
-    #supportf:hover{
+    #supportf:hover span{
         border-bottom: 2px solid white;
     }
 
