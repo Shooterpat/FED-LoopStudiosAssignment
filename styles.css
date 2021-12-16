@@ -637,6 +637,11 @@
 
     }
 
+    #gallery-expand:hover{
+        background-color: black;
+        color: white;
+    }
+
     .gallery-buttons{
         grid-row: 3;
         grid-column: 1 / span 2;
@@ -656,6 +661,15 @@
         background-position: center center;
         background-repeat: no-repeat;
         border: none;
+        background-color: white;
+    }
+
+    #deep-earth:hover{
+        opacity: 70%;
+    }
+
+    #deep-earth:hover p{
+        color: white;
     }
 
     #deep-earth p{
@@ -684,6 +698,11 @@
         background-repeat: no-repeat;
         margin-right: 30px;
         border: none;
+        background-color: white;
+    }
+
+    #night-arcade:hover{
+        opacity: 70%;
     }
 
     #night-arcade p {
@@ -713,6 +732,10 @@
         border: none;
     }
 
+    #soccer-team:hover{
+        opacity: 70%;
+    }
+
     #soccer-team p {
         font-family: Josethin;
         font-style: normal;
@@ -738,6 +761,10 @@
         background-position: center center;
         background-repeat: no-repeat;
         border: none;
+    }
+
+    #the-grid:hover{
+        opacity: 70%;
     }
 
     #the-grid p {
@@ -767,6 +794,10 @@
         border: none;
     }
 
+    #from-up:hover{
+        opacity: 70%;
+    }
+
     #from-up p {
         font-family: Josethin;
         font-style: normal;
@@ -792,6 +823,10 @@
         background-position: center center;
         background-repeat: no-repeat;
         border: none;
+    }
+
+    #pocket-borealis:hover{
+        opacity: 70%;
     }
 
     #pocket-borealis p {
@@ -821,6 +856,10 @@
         border: none;
     }
 
+    #the-curiosity:hover{
+        opacity: 70%;
+    }
+
     #the-curiosity p {
         font-family: Josethin;
         font-style: normal;
@@ -846,6 +885,10 @@
         background-position: center center;
         background-repeat: no-repeat;
         border: none;
+    }
+
+    #fisheye:hover{
+        opacity: 70%;
     }
 
     #fisheye p {
